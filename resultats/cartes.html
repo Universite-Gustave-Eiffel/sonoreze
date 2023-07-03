@@ -247,9 +247,30 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 mx-auto text-center">
-        <h2 class="text-gradient text-primary mb-3">Page en cours de construction</h2>
-        <p>... merci pour votre patience.
+        <p>
+          Ci-dessous sont présentées des exemples de cartes produites lors de la première phase du projet SonoRezé (2021-22), grâce aux participants et avec l'application <a href="https://noise-planet.org/noisecapture.html" target="_blank"><b>NoiseCapture</b></a>.
         </p>
+
+        <h2 class="text-gradient text-primary mb-3">Méthodologie</h2>
+        <p>
+          La collecte des données a duré 7 mois, de décembre 2021 à juin 2022 inclus. Les participants étaient libres de prendre des mesures quand ils le souhaitaient, avec pour consigne soit de prendre des mesures par spots d'au moins une minute, soit de prendre des mesures mobiles, en veillant à ne pas polluer les mesures avec leurs propres pas, et à faire attention aux conditions météorologiques (éviter soit la pluie, soit les rafales de vent). En outre, une page dédiée à la perception, présente dans l'application NoiseCapture, permettait aux participants de remplir des variables perceptives : marquer les sources sonores entendues (on/off), et donner une note d'agrément à l'environnement sonore.<br>
+          Un calibrage du smartphone a été effectué à chaque événement organisé pour les participants qui le souhaitaient, afin d'améliorer la qualité des données collectées. Une liste de diffusion et un groupe de discussion sur les réseaux sociaux ont été créés afin de maintenir la dynamique du projet. Cependant, comme il n'est pas possible, pour des raisons d'anonymat, de connaître le numéro de téléphone des personnes qui ont téléchargé l'application, il n'a pas été possible, au cours du projet, d'envoyer des messages aux personnes qui prennent des mesures et qui n'ont pas laissé leur adresse électronique. Par conséquent, certaines des données collectées proviennent de smartphones non calibrés, dont l'application garde la trace.<br>
+          Enfin, cinq soirées NoiseCapture (aussi appelée "NoiseCapture party") ont été organisées à partir du 5ème mois, dans l'idée de réaliser des mesures dans des zones peu couvertes par l'expérimentation, avec une communication interne. Ces NoiseCapture parties ont eu lieu les 27/04, 07/05, 16/05, 31/05 et 14/06/2023. L'idée était de réunir des habitants pour effectuer des mesures sur une période d'environ 30 minutes, suivies d'une discussion informelle sur les ambiances sonores entendues.
+        </p>
+        <br>
+
+        <h2 class="text-gradient text-primary mb-3">Une première campagne de mesure participative à grande échelle</h2>
+        <p>
+          Au cours des 7 mois du projet, 134 participants ont collecté 1566 mesures, pour une durée totale de 93 heures, soit une durée moyenne de mesure de plus de 3 mn. La durée médiane des pistes de mesure est de 66s ; 90% des pistes de mesure durent 6s ou plus, 10% des pistes de mesure durent 5mn40s ou plus.<br>
+          Globalement, les 1566 mesures se répartissent de manière assez homogène (au moins 200 mesures) du lundi au samedi, avec un pic les lundi et mardi. À l'inverse, environ 130 mesures ont été réalisé un dimanche. D'un point de vue horaire, les mesures se concentraient entre 5h et 22h, avec un premier pic à 8h du matin et surtout un deuxième à 16h (quasiment 400 mesures en moyenne).
+        </p>
+        <img src="../assets/img/cartes/statistics.png" width="70%">
+        <br><br>
+        <p>
+          La carte ci-dessous montre la densité des mesures réalisées. Plus la zone est rouge, plus il y a eu de contributions.<br>
+          Les 5 cercles noirs représentent les zones qui ont été cartographiées dans le cadre de NoiseCapture party, les sessions de mesure collectives.
+        </p>
+        <img src="../assets/img/cartes/sonoreze_heatmap.png" width="50%">
         </br>
       </div><!-- col-lg-12 -->
     </div><!-- row -->
@@ -258,17 +279,28 @@
   </div><!-- container -->
 
 
+
+
+
+
+
+
+
+
   <div class="container">
     <div class="row">
  
       <div class="row justify-content-center text-center my-sm-5">
         <div class="col-lg-12">
-          <h2 class="text-primary text-gradient">Des cartes par type de source</h2>
-          <p>Ci-dessous sont présentées des exemples de cartes produites lors de la première phase du projet SonoRezé (2021-22), grâce aux participants et avec l'application NoiseCapture.</p>
+          <h2 class="text-primary text-gradient">Une carte de bruit à l’échelle de la ville</h2>
+          <p>
+            Les données collectées ont permis de produire une carte de bruit participative à l’échelle de la ville, qui est conforme aux attentes. Elle met en évidence le contraste des niveaux sonores entre les routes principales et secondaires, bien que le manque de données autour du périphérique au sud empêche de montrer les niveaux sonores élevés à cet endroit. Il est intéressant de noter que la carte produite est sensible aux variations des niveaux sonores dans les zones sans trafic comme les parcs (voir le nord-est le long de la Sèvre par exemple), alors que la carte de bruit stratégique ne présente aucune donnée à cet endroit.  Certaines incohérences ont toutefois été relevées par les habitants, comme la présence de points à haut niveau sonore dans des quartiers calmes. Elles sont le résultat d'une collecte de données insuffisamment longue, qui est donc sensible aux valeurs aberrantes dans les mesures. Ce point pourra être amélioré en augmentant le nombre de mesures, et en travaillant sur le filtrage des données. Ceci est prévu dans le cadre du projet SonoRezé II.
+          </p>
         </div><!-- col-lg-6 -->
       </div>
     </div><!-- row -->
   </div><!-- container -->
+
 
 
   <!-- Container Tâche 1 -->
@@ -276,8 +308,8 @@
     <div class="row">
       <div class="col-lg-3">
         <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-          <h3>Nature</h3>
-          <h6 class="text-secondary font-weight-normal pe-3">Représentation du "tag" lié à la nature</h6>
+          <h3>Carte de bruit LA50</h3>
+          <h6 class="text-secondary font-weight-normal pe-3">Le LA50 est le niveau sonore pondéré A, qui est dépassé 50% du temps de la mesure. C'est un bon indicateur du niveau sonore moyen</h6>
         </div>
       </div><!-- col-lg-3 -->
 
@@ -289,7 +321,73 @@
           <div class="container border-bottom">
             <br>
             <div class="row justify-space-between py-2">
+                <img src="../assets/img/cartes/sonoreze_interpolated_road.png" width="100%">
+            </div><!-- row -->
+            <br>
+          </div><!-- container -->
+        </div>
+      </div><!-- col-12 -->
 
+        </div> <!-- row mt-3 -->
+      </div><!-- col-lg-9 -->
+    </div><!-- row -->
+  </div><!-- container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container">
+    <div class="row">
+ 
+      <div class="row justify-content-center text-center my-sm-5">
+        <div class="col-lg-12">
+          <h2 class="text-primary text-gradient">Des cartes par type de source</h2>
+          <p>
+            Enfin, des cartes par type de source ont été produites pour les quatre sources sonores suivantes : animaux, trafic ferroviaire, trafic aérien et trafic routier. Ces sources sonores ont été sélectionnées parce qu'elles sont liées à la perception de l'agrément sonore.<br>
+            Pour chacune de ces quatre sources sonores, pour chaque hexagone de cette grille, on représente la proportion de pistes de mesure dont le tag est celui de la source.<br>
+            Les cartes de bruit orientées vers les sources sonores sont conformes aux attentes et ont été considérées par les habitants lors du séminaire de clôture comme une alternative intéressante aux cartes de bruit classiques.
+          </p>
+        </div><!-- col-lg-6 -->
+      </div>
+    </div><!-- row -->
+  </div><!-- container -->
+
+
+  <!-- Container Tâche 1 -->
+  <div class="container mt-sm-5 mt-3">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
+          <h3>Animaux</h3>
+          <h6 class="text-secondary font-weight-normal pe-3">Représentation du "tag" lié aux animaux</h6>
+        </div>
+      </div><!-- col-lg-3 -->
+
+      <div class="col-lg-9">
+        <div class="row mt-3">
+
+      <div class="col-12">
+        <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
+          <div class="container border-bottom">
+            <br>
+            <div class="row justify-space-between py-2">
+                <p>
+                  La carte de la présence perçue de sons d'animaux est cohérente avec les parcs et les zones vertes de la ville, mettant ainsi potentiellement en évidence des zones propices au ressourcement. 
+                  Lorsque la mesure contenait un (ou plusieurs) tag(s), celui lié aux animaux était présent dans 30,8% des cas.
+                </p>
                 <img src="../assets/img/cartes/sonoreze_nature.png" width="100%">
             </div><!-- row -->
             <br>
@@ -309,7 +407,7 @@
       <div class="col-lg-3">
         <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
           <h3>Transport ferré</h3>
-          <h6 class="text-secondary font-weight-normal pe-3">Représentation du "tag" lié au tram / train</h6>
+          <h6 class="text-secondary font-weight-normal pe-3">Représentation du "tag" lié au trafic ferroviaire (tram / train)</h6>
         </div>
       </div><!-- col-lg-3 -->
 
@@ -321,7 +419,10 @@
           <div class="container border-bottom">
             <br>
             <div class="row justify-space-between py-2">
-
+                <p>
+                  La carte de la présence perçue des bruits du trafic ferroviaire suit la ligne de tramway qui traverse la ville. Elle est conforme à la carte stratégique du Lden pour le bruit ferroviaire. 
+                  Lorsque la mesure contenait un (ou plusieurs) tag(s), celui lié au trafic ferroviaire était présent dans 3,5% des cas.
+                </p>
                 <img src="../assets/img/cartes/sonoreze_tram.png" width="100%">
             </div><!-- row -->
             <br>
@@ -353,7 +454,10 @@
           <div class="container border-bottom">
             <br>
             <div class="row justify-space-between py-2">
-
+                <p>
+                  La carte de la présence perçue de bruits de trafic aérien montre une plus grande densité de sources sonores de trafic aérien entendues dans le sud-ouest de la ville, à mesure que l'on se rapproche de l'aéroport, qui est situé à 4,5 km au sud-ouest des limites de la ville. Cela est conforme à la carte stratégique du Lden pour le bruit des avions. 
+                  Lorsque la mesure contenait un (ou plusieurs) tag(s), celui lié au trafic aérien était présent dans 28,3% des cas.
+                </p>
                 <img src="../assets/img/cartes/sonoreze_avion.png" width="100%">
             </div><!-- row -->
             <br>
@@ -385,7 +489,10 @@
           <div class="container border-bottom">
             <br>
             <div class="row justify-space-between py-2">
-
+                <p>
+                  La carte de la présence perçue des bruits du trafic routier montre une forte densité des sources sonores du trafic routier entendues sur l'ensemble du territoire. Cette carte ne permet cependant pas de distinguer les routes principales des routes secondaires, car le tag des sources sonores sous NoiseCapture est "on/off". 
+                  Lorsque la mesure contenait un (ou plusieurs) tag(s), celui lié à la route était présent dans 80,4% des cas.
+                </p>
                 <img src="../assets/img/cartes/sonoreze_trafic.png" width="100%">
             </div><!-- row -->
             <br>
