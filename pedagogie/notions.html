@@ -252,7 +252,7 @@
         <div class="col-lg-12">
 
           <p  style="color:#FF0000" align="center"><b>CETTE PAGE EST EN COURS DE CONSTRUCTION</b></p>
-<br>          
+          <br>          
           <h2 class="text-primary text-gradient">Préambule</h2>
           <p class="lead">Sur cette page nous présentons les principaux concepts de base liés au monde l'acoustique. L'objectif est de vous familiariser avec cette thématique et de vous fournir des clés pour mieux appréhender la question des environnements sonores, étudiée dans le cadre de SonoRezé.</p>
         </div><!-- col-lg-6 -->
@@ -288,12 +288,10 @@
                 Pour l'homme, le son se réfère généralement à des variations de pression qui sont dans le domaine de l'audible. En dehors de cette plage, l'oreille humaine n'est pas capable de percevoir ces variations. On se retrouve alors dans le domaine des infrasons (vibrations trop lentes) ou des ultrasons (vibrations trop rapides).
                 <br>
                 <br>
-                Lorsqu'il se propage dans l'air, le son dépend fortement :
-                <ul>
-                  <li>du taux d'humidité et la température de l'air,</li>
-                  <li>de la direction et de la force du vent,</li>
-                  <li>de la pression atmosphérique du lieu.</li>
-                </ul>
+                Lorsqu'il se propage dans l'air, le son dépend fortement : <br>
+                - du taux d'humidité et la température de l'air, <br>
+                - de la direction et de la force du vent,<br>
+                - de la pression atmosphérique du lieu.
                 </p>
             </div><!-- row -->
           </div><!-- container -->
@@ -327,7 +325,7 @@
                 <p>
                   Le bruit peut être défini comme étant un son désagréable pour l'oreille humaine, de par son niveau sonore ou bien de par son manque (ou abscence) d'harmonie. 
                   <br>
-                  Dès lors qu'il implique un facteur humain, on note qu'un son pourra être plaisant pour une personne et désagréable pour une autre. Le bruit est donc une notion subjective, propre à chacun.
+                  Dès lors qu'il implique un facteur humain, on note qu'un son pourra être plaisant pour une personne et désagréable pour une autre. <b>Le bruit est donc une notion subjective</b>, propre à chacun.
                 </p>
             </div><!-- row -->
           </div><!-- container -->
@@ -361,8 +359,17 @@
                 <p>
                 Pour mesurer un niveau sonore (on parle aussi d'intensité sonore), on utilise les décibels (dB).
                 <br>
-                Les décibels permettent de mesurer des niveaux sonores correspondant à des pressions acoustiques audibles par l'homme, allant de 20 micropascals à 20 pascals. Le rapport entre ces deux bornes étant de 1 000 000, il a été jugé plus simple de représenter ces valeurs sur une échelle logarithmique (plutôt que linéaire, car la progression aurait été trop lente). En conséquence, on note quelques éléments qui peuvent paraître contre-intuitifs pour les non-initiés, comme le fait que rajouter 3dB à un niveau sonore équivaut à doubler ce même niveau sonore.
+                Les décibels permettent de mesurer des niveaux sonores correspondant à des pressions acoustiques audibles par l'homme, allant de 20 micropascals à 20 pascals. Le rapport entre ces deux bornes étant de 1 000 000, il a été jugé plus simple de représenter ces valeurs sur une échelle logarithmique (plutôt que linéaire, car la progression aurait été trop lente). 
                 </p>
+                <h5 class="text-primary text-gradient">Conséquence de l'échelle logarithmique</h5>
+                <p>
+                  En conséquence, on note quelques éléments qui peuvent paraître contre-intuitifs pour les non-initiés, comme le fait que rajouter 3 dB à un niveau sonore équivaut à doubler ce même niveau sonore (<i>ex: 60 dB + 60 dB = 63 dB</i>). De la même manière, multiplier une source sonore par 10 revient à lui rajouter 10 dB.
+                </p>
+
+                <div align="center">            
+                <img src="../assets/img/notions/dB.png" alt="Additionner ou multiplier des dB" width="70%">
+                </div>
+
                 <h5 class="text-primary text-gradient">Seuils d'audibilité</h5>
                 <p>
                 Comme évoqué juste avant, l'oreille humaine est capable de distinguer des pressions acoustiques allant de 20 micropascals à 20 pascals. Converties en décibels, ces pressions correspondent à des niveaux sonores allant de 0dB à 120dB. Au-delà de ce seuil, le son va engendrer des dégâts irréversibles pour l'ouïe.
@@ -377,6 +384,8 @@
       </div><!-- col-lg-9 -->
     </div><!-- row -->
   </div><!-- container -->
+
+
 
   <div class="container mt-sm-5 mt-3">
     <div class="row">
@@ -443,7 +452,87 @@
   </div><!-- container -->
 
  
+  <div class="container mt-sm-5 mt-3">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
+          <h3>Carte de bruit</h3>
+          <h6 class="text-secondary font-weight-normal pe-3">Visualiser le son</h6>
+        </div>
+      </div><!-- col-lg-3 -->
 
+      <div class="col-lg-9">
+        <div class="row mt-3">
+
+      <!-- CBS -->
+      <div class="col-12">
+        <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
+          <div class="container border-bottom">
+            <div class="row justify-space-between py-2">
+              <h5 class="text-primary text-gradient">Carte de Bruit</h5>
+                <p>
+                  Une carte de bruit est un document qui met en lumière des niveaux d'exposition sonore, sur un territoire donné. Généralement, ces niveaux sonores sont représentés sous la forme de surfaces colorées (les couleurs correspondant à des classes de valeurs exprimées en dB - exemple: ]50-55], ]55-60], ...), à la manière des courbes de niveaux pour l'altitude sur les cartes topographiques.
+</p>
+                <div align="center">       
+                  <figure>
+                    <img src="../assets/img/notions/LDEN_2002_Routier_CUnantes.jpg" alt="Carte de bruit Nantes" width="70%">
+                    <figcaption><i>Carte du bruit routier sur l'agglomération Nantaise en 2002 (issue du projet <a href="https://anr.fr/Projet-ANR-08-VILL-0005" target="_blank">ANR Eval-PDU</a>)</i></figcaption>
+                  </figure>     
+                </div>
+              <br>
+              <p>
+                  Les cartes de bruit portent le plus souvent sur un type de source, comme les trafics routier, ferroviaire, aérien, ou encore les zones industrielles.
+                
+                </p>
+
+              <h5 class="text-primary text-gradient">Carte de Bruit Stratégique (CBS)</h5>
+                <p>
+                  Les Cartes de Bruit Stratégiques sont des cartes de bruit répondant à un besoin réglementaire (Directive européenne <a href="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2002:189:0012:0025:FR:PDF" target="_blank">2002/49/CE</a> relative à l’évaluation et à la gestion du bruit dans l’environnement). Elles permettent d'avoir une vue sur les niveaux sonores émis par les grandes infrastructures routières (avec un trafic annuel supérieur à 3 millions de véhicules) et ferroviaires (avec plus de 300 000 passages par an), ou constatés dans les agglomérations de plus de 100 000 habitants.
+                  <br>
+                  À l'aide de ces cartes, il est possible de déterminer l'exposition au bruit des populations (en sommant les personnes habitants dans chaque classe de bruit).
+                </p>
+                <p>
+                  Il existe 4 type de CBS, répondant à des besoins différents :<br>
+                  - <b>Type A</b> : portant sur les zones exposées au bruit, avec les indicateurs L<sub>den</sub> et L<sub>n</sub>, <br>
+                  - <b>Type B</b> : portant sur les secteurs affectés par le bruit tels que désignés par le classement sonore des infrastructures de transports terrestres, <br>
+                  - <b>Type C</b> : portant sur les zones de dépassement des valeurs limites pour les indicateurs L<sub>den</sub> et L<sub>n</sub> (ex: toutes les surfaces ou le L<sub>den</sub> est supérieur à 68 dB), <br>
+                  - <b>Type D</b> : représentant les potentielles évolutions des niveaux sonores à terme.
+                </p> 
+            </div>
+          </div><!-- container -->
+        </div>
+      </div><!-- col-12 -->
+
+
+      <!-- Modélisation -->
+      <div class="col-12">
+        <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
+          <div class="container border-bottom">
+            <div class="row justify-space-between py-2">
+                <h5 class="text-primary text-gradient">Modélisation</h5>
+                <p>
+                  Pour réaliser ces cartes, on utilise la plupart du temps des logiciels de simulation (comme <a href="https://noise-planet.org/noisemodelling.html" target="_blank">NoiseModelling</a>) qui prennent en entrée des données de comptage (ex: de véhicules) ainsi que des informations sur le territoire d'étude (bâtiments, routes, voies ferrées, zone de végétation ou en eau, élévation du sol,...). Sur la base de ces données, il est possible de modéliser des niveaux d'émission sonore et de calculer le chemin de propagation du son dans l'espace, pour enfin déterminer les niveaux sonores théoriques en tout point du territoire.
+                  <br>
+                  Ces différents calculs sont généralement très couteux en terme de temps et de puissance de calcul. À titre d'exemple, pour produire la carte de bruit présentée plus haut sur un ordinateur classique, il vous faudra patienter pendant environ 1 semaine.
+                </p>
+
+                <div align="center">       
+                    <img src="../assets/img/notions/nm.png" alt="Modélisation" width="100%">     
+                </div>
+                
+            </div><!-- row -->
+            <br>
+          </div><!-- container -->
+        </div>
+      </div><!-- col-12 -->
+
+
+
+
+        </div> <!-- row mt-3 -->
+      </div><!-- col-lg-9 -->
+    </div><!-- row -->
+  </div><!-- container -->
 
 </section>
 
