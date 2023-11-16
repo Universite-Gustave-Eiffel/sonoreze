@@ -281,7 +281,7 @@
                 <p>De manière générale, le bruit dans l'environnement a tendance à varier en permanence (même en faible intensité) (ex: trafic routier). Pour donner une idée de l'impact moyen du niveau sonore, on utilise l'indicateur de niveau équivalent, qui représente la moyenne "énergétique" du bruit émis sur une durée de temps T.</p>
 
               <div align="center">            
-                <img src="../assets/img/indicateurs/leq.png" alt="Échelle de dB" width="80%">
+                <img src="../assets/img/indicateurs/leq.png" alt="Échelle de dB" width="90%">
               </div>
 
                 <h5 class="text-primary text-gradient">L<sub>eq</sub></h5>
@@ -303,13 +303,23 @@
         <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
           <div class="container border-bottom">
             <div class="row justify-space-between py-2">
-              <h5 class="text-primary text-gradient">Limites</h5>
+              <h5 class="text-primary text-gradient">Limites - masquage des dynaniques</h5>
                 <p>Le niveau équivalent est un indicateur qui permet de rendre compte de manière simple du niveau sonore moyen, sur une période donnée. Néanmoins, il ne permet pas de comparer différentes mesures entre elles. En effet, de par sa nature "moyennée" il ne permet pas de restituer la dynamique d'une mesure. Ainsi, deux mesures portant sur des environnements sonores très différents, l'un avec de fortes variations et l'autre plutôt stable en terme d'intensité, pourront avoir au final le même niveau équivalent. Le schéma ci-dessous illustre ce soucis.</p>
 
               <div align="center">            
-                <img src="../assets/img/indicateurs/leq_diff_dynamiques.png" alt="Masquage des dynamiques" width="80%">
+                <img src="../assets/img/indicateurs/leq_diff_dynamiques.png" alt="Masquage des dynamiques" width="90%">
               </div>
 
+              <h5 class="text-primary text-gradient">Limites - sensibilité aux pics sonores</h5>
+              <p>
+                Dans le même esprit, on constate que le L<sub>Aeq</sub> est un indicateur très sensible aux pics sonores. Ainsi, si sur la durée d'une mesure on rajoute 20 dB(A) juste 1% du temps, alors le L<sub>Aeq</sub> est augmenté de 3 dB(A). Or, comme vu <a href="./notions.html"><b>ICI</b></a>, augmenter de 3 dB(A) une source sonore est équivalent au fait de doubler cette source sur la durée de la mesure. Un pic sonore, même s'il n'est pas représentatif de la mesure globale (comme par exemple un scooter qui passe dans une rue calme), aura donc un impact très important sur le niveau équivalent final.
+                <br>
+                <p align="center"><cite><b>&rarr; +20 dB(A) pendant 1% du temps = doubler la source sonore</b></cite></p>
+              </p>
+
+              <div align="center">            
+                <img src="../assets/img/indicateurs/leq_sensivity.png" alt="Masquage des dynamiques" width="90%">
+              </div>
             </div><!-- row -->
           </div><!-- container -->
         </div>
@@ -360,7 +370,7 @@
 
 
               <div align="center">            
-                <img src="../assets/img/indicateurs/leq_la10_50_90.png" alt="Masquage des dynamiques" width="80%">
+                <img src="../assets/img/indicateurs/leq_la10_50_90.png" alt="Masquage des dynamiques" width="90%">
               </div>
 
             </div><!-- row -->
