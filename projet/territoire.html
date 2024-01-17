@@ -154,14 +154,14 @@
 
         <!-- li Résultats -->
         <li class="nav-item dropdown dropdown-hover mx-2">
-          <a class="nav-link ps-2 d-flex center-content-between cursor-pointer align-items-center" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
             Résultats
             <img src="../assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1">
           </a>
-          <div class="dropdown-menu dropdown-menu-animation dropdown-md p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
+          <ul class="dropdown-menu dropdown-menu-animation dropdown-mg p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
 
             <!-- Navbar big size (full screen) -->
-            <div class="d-none d-lg-block" >
+            <div class="d-none d-lg-block">
               <h6>&nbsp; &nbsp; SonoRezé I</h6>
               <a href="./../resultats/sonoreze_I/discussion.html" class="dropdown-item border-radius-md">Groupes de discussion</a>
               <a href="./../resultats/sonoreze_I/cartes.html" class="dropdown-item border-radius-md">Cartographies</a>
@@ -172,9 +172,21 @@
               <a href="./../resultats/sonoreze_II/actions.html" class="dropdown-item border-radius-md">Actions</a>
               <a href="./../resultats/sonoreze_II/portail_carto.html" class="dropdown-item border-radius-md">Portail cartographique</a>
 
-              <a href="./../resultats/publications.html" class="dropdown-item border-radius-md"><h6>Publications</h6></a>
+              <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                <a class="dropdown-item py-2 ps-3 border-radius-md">
+                  <div class="d-flex">
+                        Cartes sensibles
+                  </div>
+                </a>
+                <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
+                  <a class="dropdown-item ps-3 border-radius-md mb-1" href="./../resultats/sonoreze_II/cartes_etudiants.html">Étudiants</a>
+                  <a class="dropdown-item ps-3 border-radius-md mb-1" href="./../resultats/sonoreze_II/cartes_ecoliers.html">Écoliers</a>
+                </div>
+              </li>
 
-            </div><!-- navbar big - d-lg-block -->
+              <a href="./../resultats/publications.html" class="dropdown-item border-radius-md"><h6>Publications</h6></a>
+            </div>
+
 
             <!-- Navbar small size (smartphone, tablet) -->
             <div class="d-lg-none">
@@ -187,14 +199,15 @@
               <br><h6>&nbsp; &nbsp; SonoRezé II</h6>
               <a href="./../resultats/sonoreze_II/actions.html" class="dropdown-item border-radius-md">Actions</a>
               <a href="./../resultats/sonoreze_II/portail_carto.html" class="dropdown-item border-radius-md">Portail cartographique</a>
-
+              <a href="./../resultats/sonoreze_II/cartes_etudiants.html" class="dropdown-item border-radius-md">Cartes sensibles - Étudiants</a>
+              <a href="./../resultats/sonoreze_II/cartes_ecoliers.html" class="dropdown-item border-radius-md">Cartes sensibles - Écoliers</a>
               <a href="./../resultats/publications.html" class="dropdown-item border-radius-md"><h6>Publications</h6></a>
 
             </div><!-- navbar small - d-lg-none -->
 
-          </div><!-- dropdown-menu -->
+          </ul>
         </li><!-- li Résultats -->
-
+        
 
         <!-- Actualités -->
         <li class="nav-item ms-lg-0">

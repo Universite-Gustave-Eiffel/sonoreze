@@ -155,14 +155,14 @@
 
         <!-- li Résultats -->
         <li class="nav-item dropdown dropdown-hover mx-2">
-          <a class="nav-link ps-2 d-flex center-content-between cursor-pointer align-items-center" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
             Résultats
             <img src="../../assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1">
           </a>
-          <div class="dropdown-menu dropdown-menu-animation dropdown-md p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
+          <ul class="dropdown-menu dropdown-menu-animation dropdown-mg p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
 
             <!-- Navbar big size (full screen) -->
-            <div class="d-none d-lg-block" >
+            <div class="d-none d-lg-block">
               <h6>&nbsp; &nbsp; SonoRezé I</h6>
               <a href="../sonoreze_I/discussion.html" class="dropdown-item border-radius-md">Groupes de discussion</a>
               <a href="../sonoreze_I/cartes.html" class="dropdown-item border-radius-md">Cartographies</a>
@@ -173,9 +173,21 @@
               <a href="./actions.html" class="dropdown-item border-radius-md">Actions</a>
               <a href="./portail_carto.html" class="dropdown-item border-radius-md">Portail cartographique</a>
 
-              <a href="../publications.html" class="dropdown-item border-radius-md"><h6>Publications</h6></a>
+              <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                <a class="dropdown-item py-2 ps-3 border-radius-md">
+                  <div class="d-flex">
+                        Cartes sensibles
+                  </div>
+                </a>
+                <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
+                  <a class="dropdown-item ps-3 border-radius-md mb-1" href="./cartes_etudiants.html">Étudiants</a>
+                  <a class="dropdown-item ps-3 border-radius-md mb-1" href="./cartes_ecoliers.html">Écoliers</a>
+                </div>
+              </li>
 
-            </div><!-- navbar big - d-lg-block -->
+              <a href="../publications.html" class="dropdown-item border-radius-md"><h6>Publications</h6></a>
+            </div>
+
 
             <!-- Navbar small size (smartphone, tablet) -->
             <div class="d-lg-none">
@@ -188,12 +200,13 @@
               <br><h6>&nbsp; &nbsp; SonoRezé II</h6>
               <a href="./actions.html" class="dropdown-item border-radius-md">Actions</a>
               <a href="./portail_carto.html" class="dropdown-item border-radius-md">Portail cartographique</a>
-
+              <a href="./cartes_etudiants.html" class="dropdown-item border-radius-md">Cartes sensibles - Étudiants</a>
+              <a href="./cartes_ecoliers.html" class="dropdown-item border-radius-md">Cartes sensibles - Écoliers</a>
               <a href="../publications.html" class="dropdown-item border-radius-md"><h6>Publications</h6></a>
 
             </div><!-- navbar small - d-lg-none -->
 
-          </div><!-- dropdown-menu -->
+          </ul>
         </li><!-- li Résultats -->
 
 
@@ -258,6 +271,60 @@
           Cette page sera alimentée au fur et à mesure des ateliers et de l'avancement des actions <br> <i>(les derniers évènements sont présentés en premier)</i>.</p>
         </div><!-- col-lg-6 -->
       </div>
+    </div><!-- row -->
+  </div><!-- container -->
+
+  <!-- Container Atelier n°3 -->
+  <div class="container mt-sm-5 mt-3">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
+          <h3>Atelier n°3</h3> 
+          <h4>12/12/2023</h4>
+          
+        </div>
+      </div><!-- col-lg-3 -->
+
+      <div class="col-lg-9">
+        <div class="row mt-3">
+
+      <!-- Articles scientifiques -->
+      <div class="col-12">
+        <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
+          <div class="container border-bottom">
+            <div class="row justify-space-between py-2">
+              <h5 class="text-primary text-gradient">La réunion</h5>
+              <p>
+                 Le 12 décembre 2023 s'est tenu le troisième Atelier public "Diagnostic / actions", qui réunissait des citoyens, des élus et des chercheurs du projet SonoRezé.
+                 <br>
+                 Comme décidé à l'issue du 2ème atelier, cette réunion avait pour objectif de travailler sur les actions à mettre en oeuvre.
+              </p>
+                 <img src="../../assets/img/actions/2023_12_12_participant.jpg" alt="Participants au troisième atelier" width="80%">
+              <p>   
+                 <br>
+                 De manière synthétique, cet atelier a suivit la trame suivante : <br>
+                 &nbsp; 1. rapide tour de table et rappel des attentes de ce 3ème atelier,<br>
+                 &nbsp; 2. présentation des 15 actions (réparties dans 7 objectifs), fruits d'une synthèse du 2ème atelier,<br>
+                 &nbsp; 3. choix des actions à prioriser, sur la base d'une consultation des habitants à l'aide de gommettes,<br>
+                 &nbsp; 4. échanges sur la manière de mettre en oeuvre les actions retenues.
+                 <br>
+                 <br>
+              
+                 Ainsi, 3 actions sont ressorties majoritaires : <br>
+                 &nbsp; 1. Réaliser une carte de la perception du bruit par les habitants, sur la base d'entretiens individuels,<br>
+                 &nbsp; 2. Réaliser des mesures à l'aide de NoiseCapture,<br>
+                 &nbsp; 3. Produire une série de chiffres permettant de sensibiliser la population et les autorités aux nuisances subies par les riverains de l'aéroport.
+              </p>                 
+                 
+            </div><!-- row -->
+            <br>
+          </div><!-- container -->
+        </div>
+      </div><!-- col-12 -->
+
+
+        </div> <!-- row mt-3 -->
+      </div><!-- col-lg-9 -->
     </div><!-- row -->
   </div><!-- container -->
 
