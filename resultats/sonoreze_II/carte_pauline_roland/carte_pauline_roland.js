@@ -26,33 +26,33 @@
         var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '© OpenStreetMap',
-            bounds: [[47.16928,-1.57601],[47.1998,-1.54057]],
+            bounds: [[47.16411,-1.59147],[47.20149,-1.53218]],
         });
 
         var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
             subdomains: 'abcd',
-            bounds: [[47.16928,-1.57601],[47.1998,-1.54057]],
+            bounds: [[47.16411,-1.59147],[47.20149,-1.53218]],
             maxZoom: 20
         });
 
         var CartoDB_VoyagerOnlyLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
             subdomains: 'abcd',
-            bounds: [[47.16928,-1.57601],[47.1998,-1.54057]],
+            bounds: [[47.16411,-1.59147],[47.20149,-1.53218]],
             maxZoom: 20
         });
 
         var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
             subdomains: 'abcd',
-            bounds: [[47.16928,-1.57601],[47.1998,-1.54057]],
+            bounds: [[47.16411,-1.59147],[47.20149,-1.53218]],
             maxZoom: 20
         });
 
         var GeoportailFrance_orthos = L.tileLayer('https://wxs.ign.fr/{apikey}/geoportail/wmts?REQUEST=GetTile&SERVICE=WMTS&VERSION=1.0.0&STYLE={style}&TILEMATRIXSET=PM&FORMAT={format}&LAYER=ORTHOIMAGERY.ORTHOPHOTOS&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}', {
             attribution: '<a target="_blank" href="https://www.geoportail.gouv.fr/">Geoportail France</a>',
-            bounds: [[47.16928,-1.57601],[47.1998,-1.54057]],
+            bounds: [[47.16411,-1.59147],[47.20149,-1.53218]],
             //bounds: [[-75, -180], [81, 180]],
             minZoom: 2,
             maxZoom: 19,
