@@ -320,28 +320,31 @@
             <div class="row justify-space-between py-2">
              
               <p>
-                 Les principales grandeurs physiques de l'acoustique sont la pression acoustique, la puissance et l'intensité du son. Les unités physiques de ces grandeurs, dans le système international, sont respectivement le Pascal (Pa), le Watt (W) et le Watt par mètre carré (W / m2). La puissance acoustique d'un petit drone est d'environ 0.000001W, tandis que celle d'un avion à réaction est d'environ 1 000 000W. Une telle gamme de valeurs à considérer amène l'acousticien à exprimer les quantités physiques en utilisant la fonction logarithme et une valeur qui sert de référence car cette approche comprime les échelles dans un intervalle pertinent.
-                <br><br>
-                Il résulte de cette échelle quelques éléments qui peuvent paraître contre-intuitifs pour les non-initiés, comme le fait que <b>rajouter 3 dB à un niveau sonore équivaut à doubler ce même niveau sonore</b>.
+                Les niveaux de bruit sont exprimés en <a href="" title="Les principales grandeurs physiques de l'acoustique sont la pression acoustique, la puissance et l'intensité du son. Les unités physiques de ces grandeurs, dans le système international, sont respectivement le Pascal (Pa), le Watt (W) et le Watt par mètre carré (W / m2). La puissance acoustique d'un petit drone est d'environ 0.000001W, tandis que celle d'un avion à réaction est d'environ 1 000 000W. Une telle gamme de valeurs à considérer amène l'acousticien à exprimer les quantités physiques en utilisant la fonction logarithme et une valeur qui sert de référence car cette approche comprime les échelles dans un intervalle pertinent."> décibels</a>. Il résulte de cette échelle quelques éléments qui peuvent paraître contre-intuitifs pour les non-initiés, comme le fait que <b>rajouter 3 dB à un niveau sonore équivaut à doubler ce même niveau sonore</b>.
                 <br><br>
                 Par exemple : <br>
                   &nbsp;- multiplier par deux le nombre d’avions augmente les niveaux de 3 décibels,<br>
                   &nbsp;- multiplier par dix le nombre d’avions augmente les niveaux de 10 décibels.<br>
                 </p>
+            </div><!-- row -->
                  <img src="../../assets/img/theme_avion/pedagogie_dB.png" alt="L'échelle des décibels" width=100%>
+            <br>
+            <br>
+            <div class="row justify-space-between py-2">
                 <p>
-                 Les choses se compliquent si on s’intéresse à la perception du bruit. En effet, l’oreille humaine a elle aussi une réponse non linéaire. Des études montrent que <b>le niveau sonore doit augmenter de 10 décibels pour avoir une impression de doublement de l’intensité sonore perçue</b>, une différence de 3 décibels étant à peine perçue.<br><br>
-                 Ainsi, <b>baisser le niveau sonore de 3 décibels est à peine perceptible, alors que réduire de moitié le nombre d’avions l’est…</b> Pour tenir compte de cela, de nombreux chercheurs, ainsi que l’OMS, recommandent de recourir à l’utilisation de nouveaux indicateurs, tels que les niveaux maximums LA<sub>max</sub>.
+                Les choses se compliquent si on s’intéresse à la perception du bruit. En effet, l’oreille humaine a elle aussi une réponse non linéaire. Des études montrent que <b>le niveau sonore doit augmenter de 10 décibels pour avoir une impression de doublement de l’intensité sonore perçue</b>, une différence de 3 décibels étant à peine perçue.<br><br>
+                Ainsi, <b>baisser le niveau sonore d’un avion de 3 décibels est à peine perceptible, alors que réduire de moitié le nombre d’avions l’est…</b> Pour tenir compte de cela, de nombreux chercheurs, ainsi que l’OMS, recommandent de recourir à l’utilisation de nouveaux indicateurs, tels que les niveaux maximums LA<sub>max</sub> <i>(voir la page <b><a href="../../pedagogie/indicateurs.html">Indicateurs</a></b>)</i>, ou bien des statistiques telles que le nombre d’évènements dépassant un seuil donné.
                 <br>
                 <br>
                 Pour plus de détails, n'hésitez pas à consulter la page <b><a href="../../pedagogie/notions.html">Notions</a></b>.
                 </p>
                 <h5 class="text-primary text-gradient">L'indicateur L<sub>DEN</sub></h5>
                 <p>
-                Comme présenté sur la page <b><a href="../../pedagogie/indicateurs.html">Indicateurs</a></b>, l'indicateur L<sub>DEN</sub> correspond au niveau équivalent (L<sub>Aeq</sub>) calculé sur une période de 24h. Ici "DEN" signifie "Day-Evening-Night" ("Jour-Soir-Nuit" en français), soit les 3 périodes réglementaires citées précédemment. <br><br>
-                
+                Comme présenté sur la page <b><a href="../../pedagogie/indicateurs.html">Indicateurs</a></b>, l'indicateur L<sub>DEN</sub> correspond au niveau équivalent (L<sub>Aeq</sub>) calculé sur une période de 24h. Ici "DEN" signifie "Day-Evening-Night" ("Jour-Soir-Nuit" en français), soit les 3 périodes réglementaires citées précédemment. 
+                <br>
+                <br>
                 Pour tenir compte du fait que le bruit est plus gênant en soirée et la nuit, des termes correctifs majorants de +5 dB(A) et +10 dB(A) sont appliqués en soirée et la nuit.<br><br>
-                Appliquée aux avions, cette règle implique qu'un avion passant le soir équivaut à 5 passages (en journée). De même, un passage la nuit équivaut à 10 survols.
+                Appliquée aux avions, cette règle implique qu'un avion passant le soir équivaut à 5 passages (en journée). De même, un passage la nuit équivaut à 10 survols. En France, la période retenue pour définir le soir est [18:00-22:00], et la période retenue pour définir la nuit est [22:00-06:00]. Ces périodes peuvent varier d’un pays à l’autre.
                 </p>
                 <img src="../../assets/img/theme_avion/pedagogie_lden.png" alt="L'échelle des décibels" width=100%>        
             </div><!-- row -->
@@ -380,14 +383,14 @@
               </p>
               <h5 class="text-primary text-gradient">La gêne</h5>
               <p>
-                De nombreux travaux prouvent l'existence d'un lien entre le bruit des avions et la gêne occasionnée. Des enquêtes ont été effectuées sur un nombre divers d’aéroport (Heathrow 2003, Berlin-Tegel 2003, Amsterdam 2003, etc., totalisant plus de 17000 répondants aux enquêtes de gêne. L’analyse de ces enquêtes a permis de dresser une relation donnant le nombre de personnes très gênées par le bruit en fonction du niveau sonore (indicateur L<sub>den</sub> estimé par des modèles) (Guski et al., 2017).
+                De nombreux travaux prouvent l'existence d'un lien entre le bruit des avions et la gêne occasionnée. Des enquêtes ont été effectuées sur un nombre divers d’aéroport (Heathrow 2003, Berlin-Tegel 2003, Amsterdam 2003, etc.), totalisant plus de 17000 répondants aux enquêtes de gêne. L’analyse de ces enquêtes a permis de dresser une relation donnant le nombre de personnes très gênées par le bruit en fonction du niveau sonore (indicateur L<sub>den</sub> estimé par des modèles) (Guski et al., 2017).
               </p>
                  <img src="../../assets/img/theme_avion/pedagogie_courbes_oms_avec_aeroports.png" alt="L'échelle des décibels" width=100%>
                  
               <p>
                 <br>
                 De plus, il est important de rappeler les points suivants : <br> 
-                  &nbsp;- Ces courbes représentent des chiffres moyens (par exemple, 18% des habitants sont très gênés par le bruit des avions pour un niveau L<sub>den</sub> de 50 dBA). On observe cependant de large disparités entre les individus, liées aux facteurs suivants : 
+                  &nbsp;- Ces courbes représentent des chiffres moyens (par exemple, 18% des habitants sont très gênés par le bruit des avions pour un niveau L<sub>den</sub> de 50 dBA). On observe cependant de large disparités entre les individus : pour deux individus exposés à un même niveau sonore, l’un.e peut être gêné.e et l’autre pas. De nombreux facteurs influencent en effet la gêne : 
               </p>
               <img src="../../assets/img/theme_avion/pedagogie_gene.png" alt="L'échelle des décibels" width=100%>
                 
@@ -398,12 +401,12 @@
 
               <h5 class="text-primary text-gradient">La perturbation du sommeil</h5>
               <p>
-                De la même manière, des relations ont été produites par l’OMS, sur la base de synthèse d’études scientifiques, reliant les niveaux de bruit nocturnes moyens (<i>Lnight</i>) au pourcentage de personnes très perturbées dans leur sommeil (HSD - <i>High Sleep Disturbance</i>) (Exemple : à 40dB la nuit, 11.3 pourcent de la population est très perturbée).
+                De la même manière, des relations ont été produites par l’OMS, sur la base de synthèse d’études scientifiques, reliant les niveaux de bruit nocturnes moyens (<i>Lnight</i>) au pourcentage de personnes très perturbées dans leur sommeil (HSD - <i>High Sleep Disturbance</i>) (Exemple : à 40dB la nuit, 11.3 % de la population est très perturbée).
               </p>
               <img src="../../assets/img/theme_avion/pedagogie_gene_hsd.png" alt="L'échelle des décibels" width=100%>
               <p>
                 <br>
-                Pour mieux prendre compte l’effet évènementiel L’OMS souligne l’intérêt d’utiliser des indicateurs événementiels, tels que la distribution des LA,max (niveaux de bruit maximums au passage des avions).
+                Pour mieux prendre compte l’effet évènementiel, l’OMS souligne l’intérêt d’utiliser des indicateurs événementiels, tels que la distribution des LA<sub>max</sub> (niveaux de bruit maximums au passage des avions).
               </p>
 
               <h5 class="text-primary text-gradient">Recommandations de l’OMS</h5>
