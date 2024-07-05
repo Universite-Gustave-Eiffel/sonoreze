@@ -169,7 +169,7 @@
       plugins: {
             title: {
                 display: true,
-                text: 'Question n°4 : Votre âge',
+                text: 'Question n°4 : Quel est votre âge ?',
                 padding: {
                     top: 10,
                     bottom: 10
@@ -215,7 +215,7 @@
       plugins: {
             title: {
                 display: true,
-                text: 'Question n°5 : Quel est votre niveau de sensibilité',
+                text: 'Question n°5 : Quel est votre niveau de sensibilité ?',
                 padding: {
                     top: 10,
                     bottom: 10
