@@ -235,8 +235,6 @@
 <!-- End Navbar -->
 
 
-
-
 <!-- -------- Header ------- -->
 <header>
   <div class="page-header min-vh-50">
@@ -256,8 +254,6 @@
 </header>
 <!-- -------- End Header ------- -->
 
-
-
 <section class="py-7">
 
   <div class="container">
@@ -265,7 +261,7 @@
  
       <div class="row justify-content-center text-center my-sm-5">
         <div class="col-lg-12">
-          <h2 class="text-primary text-gradient">Préambule</h2>
+          <h2 class="text-primary text-gradient" id="top">Préambule</h2>
           <p class="lead">Sur cette page nous présentons les principaux concepts de base liés au monde l'acoustique. L'objectif est de vous familiariser avec cette thématique et de vous fournir des clés pour mieux appréhender la question des environnements sonores, étudiée dans le cadre de SonoRezé.</p>
         </div><!-- col-lg-6 -->
       </div>
@@ -314,6 +310,11 @@
         </div> <!-- row mt-3 -->
       </div><!-- col-lg-9 -->
     </div><!-- row -->
+
+    <!-- Saut vers le haut de page -->
+    <p align="center">
+      <a href="#top"><img src="../assets/img/jump_top.png" title="Revenir en haut" /></a>
+    </p>
   </div><!-- container -->
 
   <div class="container mt-sm-5 mt-3">
@@ -347,6 +348,11 @@
         </div> <!-- row mt-3 -->
       </div><!-- col-lg-9 -->
     </div><!-- row -->
+
+    <!-- Saut vers le haut de page -->
+    <p align="center">
+      <a href="#top"><img src="../assets/img/jump_top.png" title="Revenir en haut" /></a>
+    </p>
   </div><!-- container -->
 
 
@@ -382,7 +388,8 @@
                 <img src="../assets/img/notions/dB.png" alt="Additionner ou multiplier des dB" width="70%">
                 </div>
 
-                <br>
+            </div><!-- row -->
+            <div class="row justify-space-between py-2">
                 <p>
                   De manière plus générale, sur la base de la progression logarithmique des dB, on peut en déduire le graphique ci-dessous, qui montre la relation entre la multiplication d'une source sonore et la différence d'intensité engendrée (en dB).
                 </p>
@@ -390,9 +397,8 @@
                 <div align="center">            
                 <img src="../assets/img/notions/dB_intensity_scale.png" alt="Additionner ou multiplier des dB" width="70%">
                 </div>
-                <br>
-                <br>
-                
+            </div><!-- row -->
+            <div class="row justify-space-between py-2">  
                 <h5 class="text-primary text-gradient">Seuils d'audibilité</h5>
                 <p>
                 Comme évoqué juste avant, l'oreille humaine est capable de distinguer des pressions acoustiques allant de 20 micropascals à 20 pascals. Converties en décibels, ces pressions correspondent à des niveaux sonores allant de 0dB à 120dB. Au-delà de ce seuil, le son va engendrer des dégâts irréversibles pour l'ouïe.
@@ -406,6 +412,11 @@
         </div> <!-- row mt-3 -->
       </div><!-- col-lg-9 -->
     </div><!-- row -->
+
+    <!-- Saut vers le haut de page -->
+    <p align="center">
+      <a href="#top"><img src="../assets/img/jump_top.png" title="Revenir en haut" /></a>
+    </p>
   </div><!-- container -->
 
 
@@ -430,12 +441,12 @@
             <div class="row justify-space-between py-2">
                 <div align="center">            
                 <img src="../assets/img/notions/echelle_decibel.png" alt="Échelle de dB" width="70%">
-              </div>
+            </div>
             </div><!-- row -->
+            <br>
           </div><!-- container -->
         </div>
       </div><!-- col-12 -->
-
 
         </div> <!-- row mt-3 -->
       </div><!-- col-lg-9 -->
@@ -464,14 +475,19 @@
                 <img src="../assets/img/notions/echelle_db_environnement_sonore.png" alt="Échelle de dB" width="70%">
               </div>
             </div><!-- row -->
+            <br>
           </div><!-- container -->
         </div>
       </div><!-- col-12 -->
 
-
         </div> <!-- row mt-3 -->
       </div><!-- col-lg-9 -->
     </div><!-- row -->
+
+    <!-- Saut vers le haut de page -->
+    <p align="center">
+      <a href="#top"><img src="../assets/img/jump_top.png" title="Revenir en haut" /></a>
+    </p>
   </div><!-- container -->
 
  
@@ -495,18 +511,18 @@
               <h5 class="text-primary text-gradient">Carte de Bruit</h5>
                 <p>
                   Une carte de bruit est un document qui met en lumière des niveaux d'exposition sonore, sur un territoire donné. Généralement, ces niveaux sonores sont représentés sous la forme de surfaces colorées (les couleurs correspondant à des classes de valeurs exprimées en dB - exemple: ]50-55], ]55-60], ...), à la manière des courbes de niveaux pour l'altitude sur les cartes topographiques.
-</p>
+                </p>
                 <div align="center">       
                   <figure>
                     <img src="../assets/img/notions/LDEN_2002_Routier_CUnantes.jpg" alt="Carte de bruit Nantes" width="70%">
                     <figcaption><i>Carte du bruit routier sur l'agglomération Nantaise en 2002 (issue du projet <a href="https://anr.fr/Projet-ANR-08-VILL-0005" target="_blank">ANR Eval-PDU</a>)</i></figcaption>
                   </figure>     
                 </div>
-              <br>
+            </div><!-- row -->    
+            <div class="row justify-space-between py-2">
               <p>
-                  Les cartes de bruit portent le plus souvent sur un type de source, comme les trafics routier, ferroviaire, aérien, ou encore les zones industrielles.
-                
-                </p>
+                Les cartes de bruit portent le plus souvent sur un type de source, comme les trafics routier, ferroviaire, aérien, ou encore les zones industrielles.
+              </p>
 
               <h5 class="text-primary text-gradient">Carte de Bruit Stratégique (CBS)</h5>
                 <p>
@@ -550,19 +566,17 @@
       </div><!-- col-12 -->
 
 
-
-
         </div> <!-- row mt-3 -->
       </div><!-- col-lg-9 -->
     </div><!-- row -->
+
+    <!-- Saut vers le haut de page -->
+    <p align="center">
+      <a href="#top"><img src="../assets/img/jump_top.png" title="Revenir en haut" /></a>
+    </p>
   </div><!-- container -->
 
 </section>
-
-
-
-
-
 
 
 <!---------------------------------------------------------------------------------------->
