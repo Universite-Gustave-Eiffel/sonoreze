@@ -7,7 +7,7 @@
       labels: ['Pas du tout', 'Légèrement', 'Moyennement', 'Beaucoup', 'Extrêmement'],
       datasets: [{
         label: 'Nombre de réponse',
-        data: [12, 26, 3, 5, 2],
+        data: [39, 67, 221, 392, 139],
         backgroundColor: [
         'rgba(255, 194, 205, 0.5)',
         'rgba(255, 147, 172, 0.5)',
@@ -53,7 +53,7 @@
       labels: ['Pas du tout', 'Légèrement', 'Moyennement', 'Beaucoup', 'Extrêmement'],
       datasets: [{
         label: 'Nombre de réponse',
-        data: [12, 26, 3, 5, 2],
+        data: [97, 95, 200, 317, 141],
         backgroundColor: [
         'rgba(179, 205, 224, 0.5)',
         'rgba(100, 151, 177, 0.5)',
@@ -96,10 +96,10 @@
   new Chart(plot3, {
     type: 'bar',
     data: {
-      labels: ['Un homme', 'Une femme', 'Autre', 'Je préfère ne pas le dire'],
+      labels: ['Un homme', 'Une femme', 'Je préfère ne pas le dire'],
       datasets: [{
         label: 'Nombre de réponse',
-        data: [12, 26, 3, 5],
+        data: [355, 506, 7],
         backgroundColor: [
         'rgba(255, 99, 132, 0.5)',
         'rgba(255, 159, 64, 0.5)',
@@ -143,7 +143,7 @@
       labels: ['Moins de 18 ans', '18-24', '25-39', '40-54', '55-64', '65-79', 'Plus de 80 ans'],
       datasets: [{
         label: 'Nombre de réponse',
-        data: [12, 26, 3, 5, 2, 9, 8, 34, 23, 3],
+        data: [2, 7, 264, 361, 159, 71, 7],
         backgroundColor: [
         'rgba(255, 228, 177, 0.7)',
         'rgba(255, 193, 132, 0.7)',
@@ -193,7 +193,7 @@
       labels: ['Beaucoup plus sensible', 'Un peu plus sensible', 'Aussi sensible', 'Un peu moins sensible', 'Beaucoup moins sensible'],
       datasets: [{
         label: 'Nombre de réponse',
-        data: [12, 26, 3, 5, 2],
+        data: [56, 138, 514, 126, 27],
         backgroundColor: [
         'rgba(238, 175, 97, 0.5)',
         'rgba(251, 144, 98, 0.5)',
@@ -239,7 +239,7 @@
       labels: ['La Blordière', 'Château', 'La Houssais', 'Pont-Rousseau', 'Ragon', 'Rezé-Hôtel de ville', 'Trentemoult-les Isles', 'Autre'],
       datasets: [{
         label: 'Nombre de réponse',
-        data: [12, 26, 3, 5, 2, 3, 5, 2],
+        data: [88, 114, 228, 86, 123, 72, 91, 68],
         backgroundColor: [
         'rgba(255, 105, 97, 0.5)',
         'rgba(255, 180, 128, 0.5)',
@@ -291,7 +291,7 @@
       labels: ['Oui', 'Non'],
       datasets: [{
         label: 'Nombre de réponse',
-        data: [12, 26],
+        data: [247, 589],
         backgroundColor: [
         'rgba(255, 99, 132, 0.5)',
         'rgba(54, 162, 235, 0.5)'
