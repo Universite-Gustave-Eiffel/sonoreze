@@ -288,8 +288,6 @@
  
       <div class="row justify-content-center text-center my-sm-5">
         <div class="col-lg-12">
-          <p  style="color:#FF0000" align="center"><b>CETTE PAGE EST EN COURS DE CONSTRUCTION</b></p>
-          <br> 
 
           <h2 class="text-primary text-gradient" id="top">Préambule</h2>
           <p class="lead">
@@ -439,7 +437,7 @@
           <h2 class="text-primary text-gradient" id="variabilité">2. Variabilité du bruit des avions</h2>
           <p>
             Dans cette section nous présentons les résultats liés à la variabilité du bruit des avions.<br>
-            Cette variabilité, supposée, a été remontée par les habitants à l'occasion des premiers ateliers (ex: bruit plus important le matin, trajectoires changeantes, ..). À ce stade du projet, il n'y avait pas d'éléments tangibles permettant de corroborer ces dires.<br>
+            Cette variabilité, supposée, a été formulée par les habitants à l'occasion des premiers ateliers (ex: bruit plus important le matin, trajectoires changeantes, ..). À ce stade du projet, il n'y avait pas d'éléments tangibles permettant de corroborer ces dires.<br>
             Dans ce contexte, l'objectif du travail a donc été d'apporter une approche scientifique, qui permette d'infirmer ou de confirmer le ressenti des habitants.
             </p>
         </div><!-- col-lg-6 -->
@@ -525,7 +523,7 @@
               
               <p>
                  La carte présentée ci-dessous met en lumière les trajectoires et comptabilise les avions ayant dépassé le couvre-feu, instauré depuis le 1er avril 2022 et courant de minuit à 6 heures du matin.
-                 Pour réaliser cette carte, nous nous sommes basé sur les données issues de la plateforme <a href="./avion_methode.html#NTE-Skyview">NTE-Skyview</a>.
+                 Pour réaliser cette carte, nous nous sommes basés sur les données issues de la plateforme <a href="./avion_methode.html#NTE-Skyview">NTE-Skyview</a>.
                  <br><br>
                  Ainsi, du 1er avril 2022 au 31 décembre 2023, on dénombre <b>603 aéronefs au départ ou à l'arrivée de l'aéroport de Nantes Atlantique, entre minuit et 6h du matin</b>. Dans le détail, il s'agit en grande partie d'atterrissages. 73% de ces dépassements se font entre minuit et 1h. <b>90% se font avant 2h du matin</b>.<br>
                  Au final, cela représente <b class="text-primary">en moyenne 7 dépassements par semaine</b>.
@@ -579,11 +577,11 @@
                  Mesurer l'évolution des trajectoires, présentes en si grand nombre sur la zone d'étude, n'est pas une chose triviale. Il est nécessaire de trouver un indicateur quantifiable qui reflète la variation. Pour faciliter la lecture de la carte résultante, nous avons choisi de simplement compter le nombre de passage d'avions par cellule pour chacune des années (2022 et 2023). À partir de là, il est aisé de calculer l'évolution.
                  <br><br>
                  De manière concrète, nous avons opéré comme suit :<br> 
-                 &nbsp; 1. définition d'un maillage hexagonale (d'environ 250m de large);<br> 
+                 &nbsp; 1. définition d'un maillage hexagonal (d'environ 250m de large);<br> 
                  &nbsp; 2. l'ensemble des trajectoires (au départ ou à l'arrivée de l'aéroport) en 2022 et 2023 est découpé avec ce maillage;<br> 
-                 &nbsp; 3. dans chacune des cellules, on compte le nombre de morceau de trajectoire présent, pour les années 2022 puis 2023;<br> 
+                 &nbsp; 3. dans chacune des cellules, on compte le nombre de morceaux de trajectoire présent, pour les années 2022 puis 2023;<br> 
                  &nbsp; 4. dans chacune des cellules, on déduit l'évolution entre les deux années (2023 moins 2022);<br> 
-                 &nbsp; 5. on colorie les cellules avec une palette de couleur refletant l'évolution (vers le bleu foncé pour les valeurs négatives, montrant une diminution du nombre de vols en 2023 / vers le rouge foncé pour les valeurs positives, montrant une augmentation du trafic en 2023).<br> 
+                 &nbsp; 5. on colorie les cellules avec une palette de couleur reflétant l'évolution (vers le bleu foncé pour les valeurs négatives, montrant une diminution du nombre de vols en 2023 / vers le rouge foncé pour les valeurs positives, montrant une augmentation du trafic en 2023).<br> 
 
 
               </p>
@@ -601,7 +599,9 @@
               <br>
               <h5 class="text-primary text-gradient">Limites</h5>
               <p>
-                 Pour réaliser cette carte, nous n'avons traité les trajectoires qu'en 2 dimensions (projetées au sol). Ce résultat ne rend donc pas compte d'une possible modification des trajectoires en altitude. Ainsi, si un avion grimpe plus vite en altitude, mais en prenant un virage moins serré qu'en 2022, il apparaîtra en orange. Pour autant, il sera possible qu'il impacte une emprise au sol plus faible (donc potentiellement qu'il gêne moins d'habitants).
+                 1- Pour calculer ces chiffres, il a été nécessaire de recourir à une modélisation alternative à la méthode officielle, permettant d'estimer les niveaux de bruit sur le territoire même lorsque ceux-ci sont inférieurs à 50 dB(A) (les isophones en deçà ces valeurs seuils étant inconnues). La méthode retenue s'appuie sur les trajectoires réelles des avions, couplées aux mesures de bruit officielles, qui sont utilisées pour estimer le bruit émis par chaque avion. Cette méthode permet d'estimer une carte de bruit par survol, puis d'en déduire des indicateurs annuels. Cette méthode présente toutefois des limites, et les résultats sont ainsi approximés. De plus, nous nous sommes basés sur des valeurs parfois issues d'approximations (ex: nombre de personne habitant dans les zones sonores, pourcentage de population impactée, ...). Les chiffres résultants ne sont donc pas exacts et comportent une marge d'erreur. Néanmoins, les approximations faites restent relativement proches de la réalité, dans le même ordre de grandeur, et lorsque nous avions le choix, nous avons privilégié des valeurs minimisant le résultat final.
+                 <br><br>
+                 2- Pour réaliser cette carte, nous n'avons traité les trajectoires qu'en 2 dimensions (projetées au sol). Ce résultat ne rend donc pas compte d'une possible modification des trajectoires en altitude. Ainsi, si un avion grimpe plus vite en altitude, mais en prenant un virage moins serré qu'en 2022, il apparaîtra en orange. Pour autant, il sera possible qu'il impacte une emprise au sol plus faible (donc potentiellement qu'il gêne moins d'habitants).
               </p>
             </div><!-- row -->
             <br>
@@ -677,7 +677,7 @@
             <div class="row justify-space-between py-2">
               <h5 class="text-primary text-gradient">De l'importance du choix des seuils</h5>
               <p>
-                 Le lien entre "exposition au bruit" et "gêne engendrée" est un sujet qui a fait l'objet de nombreux travaux de recherche. Dans ce contexte, l'Organisation Mondiale de la Santé (<b><a href="https://www.who.int/fr" target="_blank">OMS</a></b>) a synthèsisé les principales contributions de la litterature (voir <b><a href="https://www.who.int/europe/publications/i/item/9789289053563" target="_blank">le rapport</a></b> - en anglais) et a proposé les deux tableaux ci-dessous.
+                 Le lien entre "exposition au bruit" et "gêne engendrée" est un sujet qui a fait l'objet de nombreux travaux de recherche. Dans ce contexte, l'Organisation Mondiale de la Santé (<b><a href="https://www.who.int/fr" target="_blank">OMS</a></b>) a synthétisé les principales contributions de la litterature (voir <b><a href="https://www.who.int/europe/publications/i/item/9789289053563" target="_blank">le rapport</a></b> - en anglais) et a proposé les deux tableaux ci-dessous.
               </p>
               
               <img src="../../assets/img/theme_avion/resultat_oms_gene.png" width="100%">
@@ -700,7 +700,7 @@
               </p>
               <h5 class="text-primary text-gradient">Prise en compte de seuils plus bas</h5>
               <p>
-                Dès lors, en couplant les Cartes de Bruit Stratégiques, qui nous permettent d'estimer la population impactée habitant dans des zones de niveau sonore inférieur à 55 dB(A) en L<sub>den</sub> et 50 dB(A) en L<sub>night</sub>, avec ces deux tableaux, on est en mesure de produire les deux chiffres suivants :<br>
+                Dès lors, en couplant des cartes de bruit issues de simulation, qui nous permettent d'estimer la population impactée habitant dans des zones de niveau sonore inférieur à 55 dB(A) en L<sub>den</sub> et 50 dB(A) en L<sub>night</sub>, avec ces deux tableaux, on est en mesure de produire les deux chiffres suivants :<br>
                 - En tenant compte des personnes exposées à un Lden < 55 dB(A), on estime à <b class="text-primary">au moins 5000 le nombre de personnes très gênées</b> par le bruit des avions,<br>
                 - En tenant compte des personnes exposées à un Lnight < 50 dB(A)***, on estime à <b class="text-primary">au moins 3000 le nombre de personnes très perturbées dans leur sommeil</b> par le bruit des avions<br>
                 <br>
@@ -749,14 +749,14 @@
                 En terme d'impact du bruit sur la santé, il existe de nombreux indicateurs. Pour les besoins de l'étude, nous nous sommes basé sur le <b><a href="https://en.wikipedia.org/wiki/Disability-adjusted_life_year" target="_blank">DALY</a></b> (Disability-Adjusted Life Years) ou en français <b><a href="https://fr.wikipedia.org/wiki/Esp%C3%A9rance_de_vie_corrig%C3%A9e_de_l%27incapacit%C3%A9" target="_blank">EVCI</a></b> (Espérance de Vie Corrigée de l'Incapacité). Cet indicateur permet d'évaluer la perte de durée de vie, due à une maladie, un handicap ou tout autre facteur impactant la santé, en partant du principe que sans le souci en question la personne était en bonne santé.<br><br>
                  Nous avons décliné cet indicateur à deux échelles :<br>
                  - Au niveau du <b>territoire</b>, pour estimer la perte cumulée de mois ou d'années de vie en bonne santé perdue par an,<br>
-                 - Au niveau d'un <b>habitant</b>, ayant une espérance de vie de 83 ans et étant resté vivre sur le même territoire toute sa vie.<br>
+                 - Au niveau d'un <b>habitant</b>, ayant une espérance de vie de 83 ans et qui resterait exposé toute sa vie aux niveaux de bruit actuels.<br>
               </p>
               <h5 class="text-primary text-gradient">Réduction de l'espérance de vie liée au bruit des avions</h5>
               <p>
                  Sur cette base, et pour notre zone d'étude rezéenne, nous obtenons les deux chiffres suivants :<br>
 
                  - Par an et à l'échelle de Rezé, en moyenne <b class="text-primary">300 années de vie en bonne santé sont perdues tous les ans</b>,<br>
-                 - Au cour de toute sa vie, <b class="text-primary">un habitant perdra 7 mois de vie en bonne santé</b>*.<br>
+                 - Au cours de toute sa vie, <b class="text-primary">un habitant perdra 7 mois de vie en bonne santé</b>*.<br>
                  <br>
                  <i>* Calculs réalisés à partir d’une estimation de 5000 personnes très gênées par le bruit des avions, et 3000 personnes très gênées dans leur sommeil. La méthodologie retenue est décrite dans le rapport d’étude de BruiParif sur les “<a href="https://www.bruitparif.fr/pages/Actualites/2019-02-09%20Impacts%20sanitaires%20du%20bruit%20des%20transports%20dans%20la%20zone%20dense%20de%20la%20r%C3%A9gion%20%C3%8Ele-de-France/2019-02-09%20-%20Impacts%20sanitaires%20du%20bruit%20des%20transports%20dans%20la%20zone%20dense%20de%20la%20r%C3%A9gion%20Ile-de-France.pdf" target="_blank">impacts sanitaires du bruit des transports dans la zone dense de la région île-de-France</a>”</i>
               </p>
@@ -828,7 +828,7 @@
                 Sur la base de ces éléments, il nous est possible de calculer le nombre de personnes impactées durant leur sommeil par le survol d'un avion.
                 Ainsi, <b class="text-primary">1 avion décollant à 6h et survolant Rezé réveille en moyenne environ 200 Rezéens</b> *. <br><br>
 
-                <i>* 200 en moyenne, mais ce chiffre peu monter à 500 voire 1000 pour certaines trajectoires, avec les hypothèses de calculs retenues</i>
+                <i>* 200 en moyenne, mais ce chiffre peu monter à 500 voire 1000 pour certaines trajectoires, avec les hypothèses de calculs retenues. Ces chiffres concernent la ville de Rezé seule, des chiffres plus importants seraient obtenus en rajoutant les communes voisines.</i>
               </p>
             </div><!-- row -->
 
@@ -863,7 +863,9 @@
         <div class="col-lg-12">
           <h2 class="text-primary text-gradient" id="enquete">4. Enquête de gêne</h2>
           <p>
-            Au cours des ateliers, les habitants ont massivement fait part de la gêne occasionnée par le passage des avions, notamment tôt le matin et tard le soir. Cette gêne n'est cependant pas "visible" sur les documents officiels (Carte de Bruit Stratégiquen, Plan de Gêne Sonore, ...). Par ailleurs, il s'agit d'un élément difficile à mesurer puisqu'il fait appel à la perception humaine, par définition variable d'un individu à l'autre.<br><br>
+            Au cours des ateliers, les habitants ont massivement fait part de la gêne occasionnée par le passage des avions, notamment tôt le matin et tard le soir. Cette gêne n'est cependant pas "visible" sur les documents officiels (Carte de Bruit Stratégiquen, Plan de Gêne Sonore, ...). Par ailleurs, il s'agit d'un élément difficile à mesurer puisqu'il fait appel à la perception humaine, par définition variable d'un individu à l'autre.<br>
+            De plus, la gêne liée au bruit des avions semble très variable, à niveau de bruit égal, d'un aéroport à l'autre. Enfin, les calculs ci-dessus laissent penser que la gêne est sous-estimée sur le territoire de Rezé.
+            <br><br>
             Dans ce contexte, il a semblé opportun de réaliser une enquête de gêne, afin de tenter de quantifier l'impact réel sur la population. <br>
             Nous présentons ci-dessous la démarche appliquée et les résultats ainsi obtenus.
           </p>
@@ -1022,13 +1024,41 @@
               <iframe style="border-style: none;" src="../../enquete_gene_commentaires/index.html" height="950" width="100%"></iframe>
             </div>
 
-            <div class="row justify-space-between py-2">
-              <h5 class="text-primary text-gradient">Interprétation</h5>
-              <p>
-                 ...
-              </p>
-
             </div><!-- row -->
+            
+            <br>
+          </div><!-- container -->
+        </div>
+      </div><!-- col-12 -->
+
+
+      <!-- Description -->
+      <div class="col-12" id="trafic">
+        <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
+          <div class="container border-bottom">
+            <div class="row justify-space-between py-2">
+              <h5 class="text-primary text-gradient">Interprétation des résultats</h5>
+              <p>
+                 Sur les 873 participants :<br>
+                 - <b class="text-primary">531 sont fortement gênés de manière générale</b> (soit 61% des réponses - 392 "Beaucoup" et 139 "Extrêment" - les scientifiques s'accordent pour dire que ces deux paliers comptent dans le calcul de la gêne). Ce résultat dépasse largement les 300 personnes "officiellement" comptabilisées dans les documents de la DGAC.<br>
+                 - <b class="text-primary">458 sont fortement gênés la nuit</b> (soit 52% des réponses - 317 "Beaucoup" et 141 "Extrêmement"). Ici aussi, ce chiffre surpasse largement l'estimation de la DGAC puisqu'officiellement aucun habitant n'est impacté la nuit.<br>
+                 - <b class="text-primary">514 se disent aussi sensibles que les autres personnes de leur entourage</b> (soit 59% des réponses). À l'inverse, seulement 83 personnes se sentent beaucoup plus / ou moins sensibles (soit 9,5% des réponses). Ce résultat montre que les participants n'ont pas une perception "extrême" ou biaisée de la situation.<br>
+                 - De manière générale, les participants sont répartis de manière assez homogène sur le territoire rezéen (avec une légère sur-représentativité du quartier de La Houssais) et respectent les distributions d'ages et de sexe. Ces résultats, en cohérence avec la réalité démographique du territoire, apportent du crédit à l'enquête.
+              </p>
+              
+
+          
+
+            <div class="row justify-space-between py-2">
+              <h6 id="enquete_commentaires">Commentaires libres</h6>
+              <br>
+              <p>
+                Les commentaires laissés par les participants sont très nombreux (525) et riches. Ci-dessous nous présentons quelques éléments marquants :<br>
+                - 
+                <br>
+               
+              </p>
+            </div>
             
             <br>
           </div><!-- container -->
