@@ -342,12 +342,75 @@
             <br>
             <div class="row justify-space-between py-2">
                 <p>
-                Les choses se compliquent si on s’intéresse à la perception du bruit. En effet, l’oreille humaine a elle aussi une réponse non linéaire. Des études montrent que <b>le niveau sonore doit augmenter de 10 décibels pour avoir une impression de doublement de l’intensité sonore perçue</b>, une différence de 3 décibels étant à peine perçue.<br><br>
+                Les choses se compliquent si on s’intéresse à la perception du bruit. En effet, l’oreille humaine a elle aussi une réponse non linéaire. Des études montrent que <b>le niveau sonore doit augmenter de 10 décibels pour avoir une impression de doublement de l’intensité sonore perçue</b>, une différence de 3 décibels étant à peine perçue.
+                </p>
+
+                <h6 class="text-primary text-gradient">Comparatif</h6>
+                
+                <p>
+                  Ci-dessous, vous trouverez 3 pistes audio permettant de comparer <b>une même scène sonore</b> : le passage d'un avion.
+                  <br>
+                  Pour les besoins de l'expérience, et à l'aide d'un logiciel de traitement du signal, nous avons soustrait 1 dB, puis 3 dB à la piste de référence.
+                  <br>
+                  On remarque qu'il est très difficile, voir impossible, de faire la différence.
+                </p>
+
+                <div class="row" align="center">
+
+                  <div class="col-lg-4 col-sm-4">
+                    <div class="card card-plain card-blog">
+                      <div class="card-body px-0">
+                        <h6>
+                          Piste de référence
+                        </h6>
+                        <br>
+                        <audio controls autoplay class="w-100 border-radius-lg move-on-hover shadow">
+                          <source src="../../assets/data/avion/pedagogie/Audio_avion/Avion_ref.mp3" type="audio/mpeg">
+                          Votre navigateur ne prend pas en charge l'élément audio.
+                        </audio>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-4">
+                    <div class="card card-plain card-blog">
+                      <div class="card-body px-0">
+                        <h6>
+                          Piste de référence, mais avec 1 dB de moins
+                        </h6>
+                        <audio controls autoplay class="w-100 border-radius-lg move-on-hover shadow">
+                          <source src="../../assets/data/avion/pedagogie/Audio_avion/Avion_ref_moins1dB.mp3" type="audio/mpeg">
+                          Votre navigateur ne prend pas en charge l'élément audio.
+                        </audio>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-4">
+                    <div class="card card-plain card-blog">
+
+                      <div class="card-body px-0">
+                        <h6>
+                          Piste de référence, mais avec 3 dB de moins
+                        </h6>
+                        <audio controls autoplay class="w-100 border-radius-lg move-on-hover shadow">
+                          <source src="../../assets/data/avion/pedagogie/Audio_avion/Avion_ref_moins3dB.mp3" type="audio/mpeg">
+                          Votre navigateur ne prend pas en charge l'élément audio.
+                        </audio>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <p>
                 Ainsi, <b>baisser le niveau sonore d’un avion de 3 décibels est à peine perceptible, alors que réduire de moitié le nombre d’avions l’est…</b> Pour tenir compte de cela, de nombreux chercheurs, ainsi que l’OMS, recommandent de recourir à l’utilisation de nouveaux indicateurs, tels que les niveaux maximums LA<sub>max</sub> <i>(voir la page <b><a href="../../pedagogie/indicateurs.html">Indicateurs</a></b>)</i>, ou bien des statistiques telles que le nombre d’évènements dépassant un seuil donné.
                 <br>
                 <br>
                 Pour plus de détails, n'hésitez pas à consulter la page <b><a href="../../pedagogie/notions.html">Notions</a></b>.
                 </p>
+
+
                 <h5 class="text-primary text-gradient">L'indicateur L<sub>DEN</sub></h5>
                 <p>
                 Comme présenté sur la page <b><a href="../../pedagogie/indicateurs.html">Indicateurs</a></b>, l'indicateur L<sub>DEN</sub> correspond au niveau équivalent (L<sub>Aeq</sub>) calculé sur une période de 24h. Ici "DEN" signifie "Day-Evening-Night" ("Jour-Soir-Nuit" en français), soit les 3 périodes réglementaires citées précédemment. 
@@ -356,7 +419,8 @@
                 Pour tenir compte du fait que le bruit est plus gênant en soirée et la nuit, des termes correctifs majorants de +5 dB(A) et +10 dB(A) sont appliqués en soirée et la nuit.<br><br>
                 Appliquée aux avions, cette règle implique qu'un avion passant le soir équivaut à 3 passages (en journée). De même, un passage la nuit équivaut à 10 survols. En France, la période retenue pour définir le soir est [18:00-22:00], et la période retenue pour définir la nuit est [22:00-06:00]. Ces périodes peuvent varier d’un pays à l’autre.
                 </p>
-                <img src="../../assets/img/theme_avion/pedagogie_lden.png" alt="L'échelle des décibels" width=100%>        
+                <img src="../../assets/img/theme_avion/pedagogie_lden.png" alt="L'échelle des décibels" width=100%>    
+
             </div><!-- row -->
           </div><!-- container -->
         </div>
